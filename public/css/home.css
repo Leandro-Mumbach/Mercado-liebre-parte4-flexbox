@@ -1,0 +1,106 @@
+   /*header*/
+.home-logo{
+    padding-left: 25px;}
+.home-header-buscador{
+    padding-left: 13px;}
+.p-header-home{
+    text-align: center;}
+nav{
+    display: none;}
+.home-header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.home-header-menu button{
+    background-color: #EAC926;
+    border: none;}
+.home-header-menu i{
+    border-radius: 5px;
+    color: white;
+    background-color: #03264C;
+    font-size: 30px;
+    padding: 10px 10px;
+    box-sizing: border-box;}
+
+    /*main*/
+.home-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ebebeb;}
+.home-main-section-art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+article{
+    margin: 15px;
+    border: solid 1px #ebebeb;
+    padding-bottom: 10px;}
+.home-main-carro {
+    color: #39b54a;
+    background-color: white;
+    font-size: 20px;
+    padding-left: 10px;}
+.home-main-carro i{
+    border-radius: 90%;
+    border: solid 1px #39b54a;
+    width: 40px;
+    height: 40px;
+    padding: 22px 4px 0px 18px;}
+p.precio{
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 18px;
+    background-color: white;}
+p.descuento{
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #39b54a;
+    background-color: white;}
+
+    /*footer*/
+.home-footer-li{
+    text-align: center;
+    font-weight: bold;
+    color: #ebebeb;}
+.home-footer-h4{
+    text-align: center;
+    color: #666;}
+.home-footer-icono{
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 10px;}
+
+    /*tablet header*/
+@media(min-width: 768px){
+nav{
+    display: block;
+    padding-left: 10px;}
+.home-header-menu i{
+    display: none;}
+
+    /*tablet main*/
+.home-main{
+    flex-direction: column;}
+article{
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+.home-main-img-producto {
+    width: 100%;}
+h4{
+    display: block;
+    background-color: white;
+    margin: 0;
+    border: solid 10px white;}
+  
+    /*tablet footer*/}
+
+@media(min-width: 1024px){
+    /*desktop header*/
+
+    /*desktop main*/
+
+    /*desktop footer*/
+}
